@@ -1,3 +1,10 @@
+# MPMoviePlayerController
+iOS 9之前，iOS播放视频文件一般使用 **MPMoviePlayerViewController** 和 **MPMoviePlayerController**。
+
+前者继承自UIViewController，后者继承NSObject。MPMoviePlayerViewController里面包含了一个MPMoviePlayerController。
+
+**要想使用上述两者，首先要包含 `#import头文件`和`MediaPlayer.framework`**
+
 **iOS播放视频文件一般使用 MPMoviePlayerViewController 和 MPMoviePlayerController。这两者的区别就是MPMoviePlayerViewController里面包含了一个MPMoviePlayerController**
 ## 介绍MPMoviePlayerController
 ### 属性 
